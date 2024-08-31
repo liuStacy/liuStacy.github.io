@@ -1,0 +1,135 @@
+<!--
+Author: Rongrong Liu
+File Name: resume.html
+Date Created: 2024-06-20
+Section: CST 8285 section 313
+Professor: Daniel Gaudreault
+Description: Third webpage of Assignment#1 about projects
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="projects" content="four notable projects">
+    <meta name="keywords" content="sections, database, java, web">
+    <meta name="author" content="Rongrong Liu">
+    <title>Projects of Rongrong Liu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assignment01-css/style.css">
+    <script src="projects.js" defer></script>
+</head>
+<body>
+    <!-- Header with navigation links -->
+    <header class="sections summary">
+        <nav class="four sections">
+            <div class="blocks">
+                <!-- Navigation links -->
+                <a href="./index.html" class="relative flex" aria-label="Index" style="text-decoration:none"><i class="fas fa-home"></i> Index</a>
+                <a href="./resume.html" class="relative flex" aria-label="Resume" style="text-decoration:none"><i class="fas fa-file-alt"></i> Resume</a>
+                <a href="./projects.html" class="relative flex" aria-label="Projects"><i class="fas fa-project-diagram"></i> Projects</a>
+                <a href="./contact.html" class="relative flex" aria-label="Contact" style="text-decoration:none"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </nav>
+    </header>
+        <!-- Projects section -->
+        <section class="container03">
+            <div id="projects">
+                <h1>Projects <span class="emoji">&#128187;</span></h1>
+            </div>
+
+            <!-- Database Project: Cinema -->
+            <div id="database-cinema" class="project">
+                <div class="project-content">
+                    <h2>Database Project </h2>
+                    <p><strong>Cinema Database Design | Apr. 2024 </strong></p>
+                    <ul>
+                        <li>Experienced in a team environment, developing leadership and communication skills</li>
+                        <li>Designed business abstract and rules for database operations</li>
+                        <li>Created a conceptual ERD diagram to ensure proper relationships between entities</li>
+                        <li>Used ERDPlus to create a physical ERD diagram, visualizing entity relationships</li>
+                        <li>Wrote DDL statements to build database structure, ensuring efficient data storage and retrieval</li>
+                        <li>Created queries to insert, update, and modify data in PostgreSQL</li>
+                        <li>Created views for tables as defined, simplifying data access and advancing query performance</li>
+                        <li>Tested and refined data to improve database accuracy, enhance data integrity, and ensure reliable performance</li>
+                        <li>Accepted and integrated various concepts and ideas from team members effectively</li>
+                    </ul>
+                </div>
+                <img src="images/cinema.png" alt="Photo of cinema data" class="project-image">
+            </div>
+
+            <!-- Database Project: Rental Tools Management -->
+            <div id="database-tools" class="project">
+                <div class="project-content">
+                    <h2>Database Project</h2>
+                    <p><strong>Rental Tools Management Database Design | Jul. 2024 </strong></p>
+                    <ul>
+                        <li>Created a business proposal regarding the selected topic and assigned specific works to each team member</li>
+                        <li>Designed a database schema that includes specific tables</li>
+                        <li>Implemented hierarchical relationships to categorize tools by type and function</li>
+                        <li>Developed a user-friendly interface in Microsoft Access for data entry, queries, and reporting</li>
+                        <li>Backup the data to ensure data integrity and security</li>
+                    </ul>
+                </div>
+                <!-- Image slider for Rental Tools Management -->
+                <div class="image-slider">
+                    <button class="arrow-btn" id="prev-img-btn" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+                    <img src="images/tools.PNG" alt="Photo of Physical ER diagram" class="project-image" id="main-image">
+                    <button class="arrow-btn" id="next-img-btn" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <!-- Java Project: Location Distance Calculator -->
+            <div id="java" class="project">
+                <div class="project-content">
+                    <h2>Java Project</h2>
+                    <p><strong>Location Distance Calculator | Jun. 2024 </strong></p>
+                    <ul>
+                        <li>Applied data encapsulation and array manipulation techniques in Eclipse</li>
+                        <li>Designed a Location class with methods to calculate distances using postal code prefixes</li>
+                        <li>Followed best practices by organizing code into multiple Java packages and documenting with Javadoc comments</li>
+                        <li>Implemented JUnit tests to validate code functionality with both valid and invalid data</li>
+                        <li>Developed and tested code to ensure accuracy and efficiency, enhancing problem-solving and debugging skills</li>
+                    </ul>
+                </div>
+                <img src="images/location.PNG" alt="Photo of location data" class="project-image">
+            </div>
+
+            <!-- Web Project: Flexbox -->
+            <div id="web" class="project">
+                <div class="project-content">
+                    <h2>Web Project</h2>
+                    <p><strong>Flexbox | Jun. 2024 </strong></p>
+                    <ul>
+                        <li>Styled the body and the header</li>
+                        <li>Created a flex container with the class "container"</li>
+                        <li>Styled the boxes with the class "box" inside the container</li>
+                        <li>Created a responsive layout using media queries</li>
+                        <li>Adjusted properties as needed to create a visually appealing layout for smaller screens</li>
+                        <li>Tested layout by resizing the browser window to ensure it responds correctly</li>
+                    </ul>
+                </div>
+                <img src="images/flexbox.PNG" alt="Photo of flexbox data" class="project-image">
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="button-container">
+                <button id="prev-btn" aria-label="Previous project">
+                    <span class="symbol">&#8592;</span>
+                    <span class="text">Previous</span>
+                </button>
+                <button id="next-btn" aria-label="Next project">
+                    <span class="symbol">&#8594;</span>
+                    <span class="text">Next</span>
+                </button>
+            </div>
+        </section>
+    
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Rongrong Liu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

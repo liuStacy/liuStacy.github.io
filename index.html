@@ -1,0 +1,99 @@
+<!--
+Author: Rongrong Liu
+File Name: index.html
+Date Created: 2024-06-20
+Section: CST 8285 section 
+Professor: Daniel Gaudreault
+Description: Landing webpage of Assignment#1 about index
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="resume" content="resume of Rongrong Liu">
+    <meta name="keywords" content="sections, contact info, objective, work experience, skills">
+    <meta name="author" content="Rongrong Liu">
+    <title>Resume of Rongrong Liu</title>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Link to custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assignment01-css/style.css">
+</head>
+
+<body>
+    <!-- Header section with navigation links -->
+    <header class="sections summary">
+        <nav class="four sections">
+            <div class="blocks">
+                <!-- Navigation links with Font Awesome icons -->
+                <a href="./index.html" class="relative flex"><i class="fas fa-home"></i> Index</a>
+                <a href="./resume.html" class="relative flex" style="text-decoration:none"><i class="fas fa-file-alt"></i> Resume</a>
+                <a href="./projects.html" class="relative flex" style="text-decoration:none"><i class="fas fa-project-diagram"></i> Projects</a>
+                <a href="./contact.html" class="relative flex" style="text-decoration:none"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Main content section -->
+        <section class="container01">
+            <!-- Introduction section -->
+            <div class="introduction">
+                <h1>Welcome! This is Rongrong Liu <span class="emoji">&#128582;</span></h1>
+                <!-- Image of Rongrong floated to the right -->
+                <img src="images/Rongrong_Picture.PNG" alt="Photo of Rongrong" style="float:right">
+            </div>
+
+            <!-- Details about Rongrong -->
+            <div class="details">
+                <h2>About Me</h2>
+                <!-- Description of Rongrong's passion and skills -->
+                <p>I am a <strong>passionate</strong> and <strong>innovative</strong> Computer Programming student who enjoys <strong>coding</strong> and <strong>testing</strong> various projects.</p>
+                <br>
+                <p>I have developed <strong>strong technical skills</strong> in software development and acquired <strong>experience</strong> with various <strong>programming languages</strong> and <strong>tools</strong>.</p>
+                <br>
+                <p>In addition, I have many hobbies. I like playing the <strong>violin</strong>, <strong>painting</strong>, and <strong>cooking</strong>.</p>
+                <br>
+            </div>
+
+            <!-- Educational background section -->
+            <div class="school">
+                <h3>School</h3>
+
+                <!-- Box for Algonquin College -->
+                <div class="box">
+                    <strong>Algonquin College</strong>
+                    <p>Currently, I am studying Computer Programming at Algonquin College.</p>
+                    <!-- Image and button for Algonquin College -->
+                    <div class="image-container">
+                            <img src="images/Algonquin.PNG" alt="Photo of college" class="school-image">
+                        <button onclick="window.location.href='https://www.algonquincollege.com/';" class="link-button">
+                            Visit Algonquin College
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Box for Concordia University -->
+                <div class="box">
+                    <strong>Concordia University</strong>
+                    <p>Previously, I graduated from Concordia University with a Bachelor of Arts degree.</p>
+                    <!-- Image and button for Concordia University -->
+                    <div class="image-container">
+                        <img src="images/Concordia.PNG" alt="Photo of university" class="school-image">
+                        <button onclick="window.location.href='https://www.concordia.ca/';" class="link-button">
+                            Visit Concordia University
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 Rongrong Liu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
