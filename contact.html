@@ -11,33 +11,38 @@ Description: Last webpage of Assignment#1 about contact
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="resume" content="resume of Rongrong Liu"> <!-- Metadata for resume -->
-    <meta name="keywords" content="sections, contact info, objective, work experience, skills"> <!-- Metadata for keywords -->
-    <meta name="author" content="Rongrong Liu"> <!-- Metadata for author -->
-    <title>Resume of Rongrong Liu</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- External font awesome stylesheet -->
-    <link rel="stylesheet" type="text/css" href="assignment01-css/style.css"> <!-- Custom CSS stylesheet -->
+    <meta name="resume" content="resume of Rongrong Liu">
+    <meta name="keywords" content="contact, form, resume, Rongrong Liu">
+    <meta name="author" content="Rongrong Liu">
+    <title>Contact - Rongrong Liu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assignment01-css/style.css">
 </head>
 
 <body>
-    <!-- Header with navigation links -->
     <header class="sections summary">
         <nav class="four sections">
             <div class="blocks">
-                <!-- Navigation links -->
                 <a href="./index.html" class="relative flex" style="text-decoration:none"><i class="fas fa-home"></i> Index</a>
                 <a href="./resume.html" class="relative flex" style="text-decoration:none"><i class="fas fa-file-alt"></i> Resume</a>
                 <a href="./projects.html" class="relative flex" style="text-decoration:none"><i class="fas fa-project-diagram"></i> Projects</a>
                 <a href="./contact.html" class="relative flex"><i class="fas fa-envelope"></i> Contact</a>
-            </div>          
-        </nav>  
+            </div>
+        </nav>
     </header>
 
     <main class="container04">
         <h1>Contact <span class="emoji">&#128233;</span></h1>
-        <!-- Contact form -->
-        <form action="submit_form.php" method="POST" class="contact-form">
-            <!-- First and Last Name input fields -->
+        <p>Unfortunately, due to the limitations of GitHub Pages, we cannot process form submissions directly. If you would like to get in touch, please use one of the following methods:</p>
+        <ul>
+            <li>Email: <a href="liu00670@algonquinlive.com">your-email@example.com</a></li>
+            <li>LinkedIn: <a href="http://www.linkedin.com/in/rongrong-liu-a64237112" target="_blank">Your LinkedIn Profile</a></li>
+        </ul>
+        <p>Thank you for your understanding!</p>
+
+        <!-- Placeholder for form or other contact methods -->
+        <!-- Example form (not functional) -->
+        <form class="contact-form">
             <div class="flex-pair">
                 <div class="input-group">
                     <label for="firstname"><span style='font-size:15px;'>&#128073;</span> First Name</label>
@@ -48,7 +53,6 @@ Description: Last webpage of Assignment#1 about contact
                     <input type="text" id="lastname" name="lastname" required>
                 </div>
             </div>
-            <!-- Email and Phone input fields -->
             <div class="flex-pair">
                 <div class="input-group">
                     <label for="email"><span style='font-size:15px;'>&#128231;</span> Email</label>
@@ -59,7 +63,6 @@ Description: Last webpage of Assignment#1 about contact
                     <input type="text" id="phone" name="phone">
                 </div>
             </div>
-            <!-- Company and Industry input fields -->
             <div class="flex-pair">
                 <div class="input-group">
                     <label for="company"><span style='font-size:15px;'>&#127970;</span> Company</label>
@@ -70,22 +73,20 @@ Description: Last webpage of Assignment#1 about contact
                     <input type="text" id="industry" name="industry">
                 </div>
             </div>
-            <!-- Message textarea -->
             <div class="flex-pair">
                 <div class="input-group">
                     <label for="message"><span style='font-size:15px;'>&#128221;</span> Message</label>
                     <textarea id="message" name="message" rows="6" required></textarea>
                 </div>
             </div>
-            <!-- Submit button -->
             <button type="submit">Submit</button>
         </form>
     </main>
 
-    <!-- Footer section -->
     <footer>
         <p>&copy; 2024 Rongrong Liu. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
 
