@@ -246,6 +246,12 @@ img {
     justify-content: space-between; /* Space items evenly */
 }
 
+/* Flexbox layout for contact_info and objective on the same line */
+.flex-container #contact_info,
+.flex-container #objective {
+    flex: 1 1 45%; /* Allow these sections to take up 45% of the container's width */
+}
+
 /* Vertical flexbox layout for specific container */
 .flex-container-vertical {
     display: flex; /* Enable flexbox */
@@ -278,7 +284,6 @@ img {
         flex-direction: column; /* Stack items vertically on small screens */
     }
 }
-
 
 
 
@@ -433,4 +438,5 @@ button .text {
         margin-bottom: 20px; /* Add space between image and content */
     }
 }
+
 
