@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Array of images for the tools project
     const toolsImages = [
-        'images/tools.PNG',
-        'images/tools2.PNG',
-        'images/tools3.PNG',
-        'images/tools4.PNG'
+        'images/tools.png',
+        'images/tools2.png',
+        'images/tools3.png',
+        'images/tools4.png'
     ];
 
     // Initialize index variables
