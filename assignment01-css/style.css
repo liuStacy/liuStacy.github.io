@@ -206,7 +206,7 @@ img {
 
 
 
-/*Style elements for resume.html */
+/* Style elements for resume.html */
 /* Container styles */
 .container02 {
     margin: 20px auto;
@@ -278,6 +278,7 @@ img {
         flex-direction: column; /* Stack items vertically on small screens */
     }
 }
+
 
 
 
@@ -432,93 +433,4 @@ button .text {
         margin-bottom: 20px; /* Add space between image and content */
     }
 }
-
-
-
-/*Style the elements for contact.html*/
-/* Container styles */
-.container04 {
-    margin: 20px auto; /* Center container horizontally with 20px margin on top and bottom */
-    padding: 30px 30px; /* Padding inside the container */
-    max-width: 800px; 
-    background-color: #ffffff; 
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
-    color: rgb(54, 80, 100); /* Text color */
-    font-size: 16px; /* Font size */
-}
-
-/* Heading styles */
-.container04 h1 {
-    text-align: center; 
-    font-size: 30px; 
-    color: rgb(154, 144, 144); 
-}
-
-/* Contact form container */
-.contact-form {
-    display: flex; /* Flexbox layout for form */
-    flex-direction: column; /* Stack form items vertically */
-    gap: 20px; /* Gap between form elements */
-}
-
-/* Label styles for form fields */
-.contact-form label {
-    margin-bottom: 10px; /* Bottom margin for labels */
-    font-weight: bold; /* Bold font weight for labels */
-}
-
-/* Input and textarea styles */
-.contact-form input,
-.contact-form textarea {
-    padding: 10px; /* Padding for input fields */
-    border: 1px solid #ddd; /* Border styles */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    resize: vertical; /* Allow vertical resizing for textarea */
-}
-
-/* Flexbox container for pairs of inputs */
-.flex-pair {
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Space evenly between inputs */
-    gap: 20px; /* Gap between input groups */
-    margin-bottom: 20px; /* Bottom margin */
-    margin-right: 10px; /* Right margin */
-}
-
-/* Flexbox layout for individual input groups */
-.flex-pair .input-group {
-    flex: 1; /* Flex grow for equal distribution */
-    display: flex; /* Flexbox layout */
-    flex-direction: column; /* Stack items vertically */
-    margin: 20px; /* Margin around input groups */
-}
-
-/* Style for individual inputs within flex-pair */
-.flex-pair .input-group input {
-    margin-bottom: 0; /* No bottom margin for inputs within input groups */
-}
-
-/* Button styles for form submission */
-.contact-form button {
-    padding: 15px 20px; /* Increased padding */
-    background-color: #aeabab; /* Light gray background color */
-    color: #fefafa; /* White text color */
-    border: none; /* No border */
-    border-radius: 20px; /* Rounded corners */
-    font-size: 16px; 
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
-    margin: 0 auto; /* Center button horizontally */
-    display: block; /* Block-level display */
-}
-
-/* Button hover effect */
-.contact-form button:hover {
-    background-color: #eff3f4; /* Lighter shade on hover */
-}
-
 
