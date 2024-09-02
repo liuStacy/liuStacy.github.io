@@ -206,7 +206,7 @@ img {
 
 
 
-/* Style elements for resume.html */
+/*Style elements for resume.html */
 /* Container styles */
 .container02 {
     margin: 20px auto;
@@ -244,12 +244,6 @@ img {
     display: flex; /* Enable flexbox */
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: space-between; /* Space items evenly */
-}
-
-/* Flexbox layout for contact_info and objective on the same line */
-.flex-container #contact_info,
-.flex-container #objective {
-    flex: 1 1 45%; /* Allow these sections to take up 45% of the container's width */
 }
 
 /* Vertical flexbox layout for specific container */
@@ -438,5 +432,7 @@ button .text {
         margin-bottom: 20px; /* Add space between image and content */
     }
 }
+
+
 
 
